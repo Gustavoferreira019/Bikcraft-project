@@ -1,0 +1,133 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    display: grid;
+    justify-items: center;
+    gap: 45px;
+    margin: 0px;
+}
+
+.content {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+header{
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content-bike,
+.vantagens {
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+    border-top: 1px solid;
+    width: 100%;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 4px 2px;
+    font-size: 18px;
+}
+
+.content-bike{
+    text-align: right;
+    padding: 20px;
+    position: relative;
+    display: grid;
+    place-items: center right;
+}
+
+button{
+    background-color: red;
+    padding: 20px;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.botao{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+}
+
+.linha{
+    background: red;
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    position: absolute;
+    top: 30px;
+    right: -40px;
+}
+
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 25px;
+}
+
+.subtitle{
+    color: #c6c6c6;
+    font-size: 64px;
+    text-align: end;
+    align-self: center;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.vantagens{
+    padding: 50px;
+}
+
+.vantagem-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px 30px;
+}
+
+.vantagem-item p{
+    grid-column: 2;
+    text-align: start;
+}
+
+.vantagem-item img{
+    align-self: center;
+}
+
+p{
+    margin: 0;
+}
+
+.text-copyright{
+    padding: 20px;
+}
